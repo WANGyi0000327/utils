@@ -46,7 +46,7 @@ export function sortObj(obj: Record<string, any>): Record<string, any> {
  *  e: 0,
  *  b: 3,
  * };
- *  const newList = sortObj(tempData);
+ *  const newList = deepClone(tempData);
  *  // {"a": {"a": 1,"c": 2},"c": 123,"f": 2,"s": "123","e": 0,"b": 3}
  *
  * ```
